@@ -1,0 +1,90 @@
+/*header section css*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #FF4100;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 40%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex: 60%;
+    font-size: 16px;
+}
+
+li {
+    float: left;
+}
+
+li a.nav-link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.nav-link:hover {
+    color: #000; 
+    transition: 0.2s;
+}
+
+
+/*middle section css*/
+.middle{
+    display: flex;
+    
+}
+
+.article{
+   flex: 70%;
+   margin: 100px 30px 100px 50px;
+   padding: 40px 40px;
+   border-radius: 5px;
+   box-shadow: 5px 20px 25px 20px rgb(230, 226, 226);
+}
+
+.list{
+    flex:30%;
+    text-align: justify;
+    font-size: 18px;
+    margin: 100px 30px;
+    padding: 40px 60px 50px 60px;
+    border-radius: 5px;
+    box-shadow: 5px 20px 25px 20px #dfdcdc;
+}
+
+.blog{
+    display: block;
+    font-size: 20px;
+}
+
+.list-link {
+    text-decoration: none;
+    color: #FF4100;
+    line-height: 50px;
+
+}
+
+.same-p{
+    color: #FF4100;
+}
+ .same-h3{
+    font-size: 30px;
+ }
